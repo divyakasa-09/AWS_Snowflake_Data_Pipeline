@@ -47,6 +47,6 @@ async def fetch_data_api(year: int = Query(None), country: str = Query(None), ma
         return filtered_data
     except Exception as e:
         return {'error': str(e)}, 400
-if name == ' main ':
+if __name__ == "__main__":
 # Run the FastAPI application using uvicorn server
-   uvicorn.run(app, port=8080, host='0.0.0.0') #    
+   uvicorn.run(app, port=8080, host='0.0.0.0') 
