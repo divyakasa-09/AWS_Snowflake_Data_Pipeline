@@ -4,7 +4,7 @@
 This project implements a real-time data pipeline to analyze global food market data across 36 countries and 2,200 markets. The pipeline streams data through AWS Kinesis, transforms it using Lambda functions, and loads it into Snowflake for analysis. The processed data is then visualized using Power BI for strategic insights into market trends and food prices.
 
 ## Architecture
-![Architecture Diagram](architecture-diagram.png)
+![Data Pipeline Architecture](assets/images/datapipeline.png)
 
 The pipeline consists of the following components:
 - AWS App Runner: Hosts the FastAPI application serving market data
